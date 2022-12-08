@@ -1,0 +1,47 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+
+    scroll-behavior: smooth;
+}
+body {
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+
+    text-decoration: none;
+}
+p {
+
+    font-size: 1.1rem;
+}
+
+/* Variables */
+:root {
+
+    --h2_FontSize: 3.5rem;
+    --header_img_ahorro: url('../imgs/companies/all-bong-L2oedF1AsH8-unsplash-min.jpg')
+}
+
+.whatsapp-link {
+
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    background-image: url('../imgs/whatsapp_icon/whatsapp_icon.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+.whatsapp-link:hover {
+
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .1);
+}

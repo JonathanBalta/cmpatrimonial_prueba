@@ -1,0 +1,54 @@
+.second-slideshow {
+
+    overflow: hidden;
+}
+.second-slideshow .second-slideshow-title {
+
+    text-align: center;
+    padding: 60px 0 30px;
+}
+.second-slideshow .second-slideshow-title h2{
+
+    font-size: var(--h2_FontSize);
+    text-transform: uppercase;
+}
+.second-slideshow .second-slideshow-content {
+
+    width: 200%;
+    display: flex;
+    transition: margin .7s;
+}
+.second-slideshow .second-slideshow-content .slider-left-content, .slider-right-content {
+
+    display: flex;
+    width: 50%;
+    padding: 100px 0;
+}
+.second-slideshow .second-slideshow-content .slider-left-content .second-s-item, .slider-right-content .second-s-item {
+
+    width: 25%;
+    height: 100%;
+}
+.second-slideshow .second-slideshow-content .slider-left-content .second-s-item img, .slider-right-content .second-s-item img {
+
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+.second-slideshow .second-pagination-buttons {
+
+    transform: translateY(-200%);
+    display: flex;
+    justify-content: center;
+}
+.second-slideshow .second-pagination-buttons i {
+
+    font-size: .9rem;
+    color: #aaa;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.second-slideshow .second-pagination-buttons i:first-child {
+
+    color: #111;
+}

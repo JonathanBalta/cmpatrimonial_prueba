@@ -1,0 +1,93 @@
+.menu-2 {
+
+    height: auto;
+    display: flex;
+    padding: 100px 0;
+}
+.menu-2 .left-content {
+
+    width: 50%;
+    padding-left: 10%;
+}
+.menu-2 .left-content h2 {
+
+    font-size: var(--h2_FontSize);
+    text-transform: uppercase;
+    padding: 0px 0 30px;
+}
+.menu-2 .left-content p { 
+
+    width: 85%;
+    line-height: 1.5;
+    margin-bottom: 20px
+}
+.menu-2 .left-content a {
+
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    transition: background .2s;
+}
+.menu-2 .left-content a:hover {
+
+    background: #111;
+    color: #fff;
+}
+.menu-2 .right-content {
+
+    width: 50%;
+}
+.menu-2 .right-content .right-content-img {
+
+    margin: 0px auto;
+    width: 80%;
+    height: 300px;
+    background-image: url('../imgs/companies/all-bong-L2oedF1AsH8-unsplash-min.jpg');
+    background-size: cover;
+}
+@media screen and (max-width:1200px) {
+    
+    .menu-2 .left-content {
+
+        width: 50%;
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width:992px) {
+    
+    .menu-2 {
+
+        padding: 0;
+    }
+    .menu-2 .left-content {
+
+        width: 100%;
+        padding: 100px 0 100px 10%;
+        background-image: url('../imgs/companies/all-bong-L2oedF1AsH8-unsplash-min.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        background-position: top;
+        background-color: rgba(0, 0, 0, .8);
+        color: #fff;
+    }
+    .menu-2 .left-content p {
+
+        width: 80%;
+    }
+    .menu-2 .left-content a {
+
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .menu-2 .left-content a:hover {
+
+        background-color: #fff;
+        color: #000;
+    }
+    .menu-2 .right-content {
+
+        display: none;
+    }
+}

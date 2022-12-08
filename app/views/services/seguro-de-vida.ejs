@@ -1,0 +1,80 @@
+<%- include('../partials/header') %>
+
+<div id="service-container" class="service-container">
+    <div id="service-header" class="service-header" style="background-image: url('../imgs/people/menu/Encabezados_Personas_Seguro de Vida-min.jpg');">
+        <h2>Seguro de vida</h2>
+        <p>Porque todo puede pasar</p>
+        <hr />
+    </div>
+
+    <div id="service-content" class="service-content">
+        <div class="service-left-content">
+            <h3>Seguro de vida</h3>
+            <h4>Porque todo puede pasar</h4>
+
+            <p>
+                ¿Vives solo?<br /><br />
+                Protege tu independencia y calidad de vida ante una enfermedad o
+                accidente que te impidan hacer lo que haces para vivir.<br /><br />
+
+                ¿Vives en familia? Vive tranquilo con la certeza de que proteges
+                su estabilidad y calidad de vida en caso de que ya no puedas
+                trabajar o fallezcas.<br /><br />
+
+                Porque en la vida todo puede pasar, deja que te sorprenda solo
+                con cosas bellas, porque los tiempos difíciles y sus
+                consecuencias puedes prevenirlos.
+            </p>
+
+            <button id="service-button">¡Quiero vivir tranquilo!</button>
+
+            <div class="calendar_social">
+                <a href="#">Agenda tu cita</a>
+
+                <div class="social">
+                    <i>x</i>
+                    <i>y</i>
+                </div>
+            </div>
+        </div>
+        <div class="service-right-content">
+            <div id="r-img" class="r-img" style="background-image: url('../imgs/people/ProductoVertical/Foto Producto_Personas_Seguro de Vida.jpg');"></div>
+        </div>
+    </div>
+</div>
+
+<div id="service-form" class="service-form">
+    <h2>¡Quiero comenzar con mi proyecto de vida!</h2>
+    <i id="service-button-exit" class="fa-solid fa-x"></i>
+    <form class="service_form__form" action="#">
+
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age">
+
+        <p>¿Fumas?</p>
+        <div class="options-container">
+            <label for="radio_y">Si
+                <input id="radio_y" type="radio" name="radio">
+            </label>
+            <label for="radio_n">No 
+                <input id="radio_n" type="radio" name="radio">
+            </label>
+        </div>
+
+        <label for="_amount">¿Cuáles son tus gastos anuales?</label>
+        <input id="_amount" type="number" name="amount">
+
+        <label for="phone">Telefono:</label>
+        <input type="text" id="phone" name="phone" />
+
+        <label for="email">Correo Electronico</label>
+        <input type="text" id="email" name="email" />
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<%- include('../partials/footer') %>

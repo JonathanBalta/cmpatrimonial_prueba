@@ -1,0 +1,128 @@
+.contact-section {
+
+    display: flex;
+    padding-bottom: 110px;
+}
+.contact-section .contact-left-content {
+
+    width: 60%;
+}
+.contact-section .contact-right-content {
+
+    width: 40%;
+}
+.contact-section .contact-left-content h2{
+
+    margin-left: 20%;
+    padding: 100px 0 30px;
+    font-size: var(--h2_FontSize);
+    text-transform: uppercase;
+}
+.contact-section .contact-left-content form {
+
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+.contact-section .contact-left-content form input {
+
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    outline: none;
+}
+.contact-section .contact-left-content form textarea {
+
+    padding: 10px;
+    font-size: 1rem;
+    resize: none;
+    margin-bottom: 15px;
+    outline: none;
+}
+.contact-section .contact-left-content form button {
+
+    width: 90px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid black;
+    transition: background .2s;
+}
+.contact-section .contact-left-content form button:hover {
+
+    background-color: #000;
+    color: #fff;
+}
+.contact-section .contact-right-content h2 {
+
+    padding: 100px 0 30px;
+    font-size: var(--h2_FontSize);
+    text-transform: uppercase;
+}
+.contact-section .contact-right-content .contact-right-bottom-content .contact-item a {
+
+    color: #000;
+    font-size: 1.4rem;
+}
+.contact-section .contact-right-content .contact-right-bottom-content .contact-item a i {
+
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.contact-section .contact-right-content .contact-right-bottom-content .contact-item {
+
+    margin-bottom: 40px;
+}
+.contact-section .contact-right-content .contact-right-bottom-content .contact-item:nth-child(4) a {
+
+    margin-right: 25px;
+}
+
+@media screen and (max-width:992px) {
+    
+    .contact-section {
+
+        display: block;
+    }
+    .contact-section .contact-left-content {
+
+        width: 100%;
+        /* background-color: green; */
+    }
+    .contact-section .contact-right-content {
+
+        width: 100%;
+        padding-left: 20%;
+    }
+}
+@media screen and (max-width:768px) {
+    
+    .contact-section .contact-left-content h2 {
+
+        margin-left: 10%;
+    }
+    .contact-section .contact-left-content form {
+
+        width: 80%;
+    }
+    .contact-section .contact-right-content {
+
+        padding-left: 10%;
+    }
+}
+@media screen and (max-width:600px) {
+    
+    .contact-section .contact-left-content h2 {
+
+        margin-left: 10%;
+    }
+    .contact-section .contact-left-content form {
+
+        width: 80%;
+    }
+    .contact-section .contact-right-content {
+
+        padding-left: 10%;
+    }
+}
